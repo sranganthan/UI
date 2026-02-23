@@ -17,7 +17,7 @@ logging.basicConfig(
 
 
 # Add Invoice button to redirect to Invoicing UI
-st.markdown('<a href="http://localhost:5000/" target="_blank"><button style="background-color:#4CAF50;color:white;padding:10px 24px;border:none;border-radius:4px;cursor:pointer;">Invoice</button></a>', unsafe_allow_html=True)
+st.markdown('<a href="https://accountsui.streamlit.app/" target="_blank"><button style="background-color:#4CAF50;color:white;padding:10px 24px;border:none;border-radius:4px;cursor:pointer;">Invoice</button></a>', unsafe_allow_html=True)
 
 st.title("Kenan Account Retrieval")
 
@@ -87,4 +87,5 @@ if st.button("Search"):
     except Exception as e:
         st.error(f"DB connection failed: {e}")
         logging.error(f"DB connection/search failed in {environment} Customer DB{customer_server_id}: {e}")
+
         st.warning("Could not retrieve data. Please check your connection or try a different environment.")
