@@ -1,0 +1,56 @@
+{
+  "environments": {
+    "IT": {
+      "name": "IT Environment",
+      "host": "pas.sky.local",
+      "port": 22,
+      "user": "ranganathans@pas.rms@colkfx28app1",
+      "password": "happydyvibe@1066",
+      "script_paths": {
+        "Proforma": "/appl_sw/custbill/scripts/Proforma.sh",
+        "Definitive": "/appl_sw/custbill/scripts/Definitive.sh"
+      },
+      "output_path": "/LOG/CIF/STAMPE",
+      "log_path": "/appl_sw/custbill/log"
+    },
+    "ST": {
+      "name": "ST Environment",
+      "host": "pas.sky.local",
+      "port": 22,
+      "user": "ranganathans@pas.rms@colkfxmapp1",
+      "password": "happydyvibe@1066",
+      "script_paths": {
+        "Proforma": "/appl_sw/custbill/scripts/Proforma.sh",
+        "Definitive": "/appl_sw/custbill/scripts/Definitive.sh"
+      },
+      "output_path": "/LOG/CIF/STAMPE",
+      "log_path": "/appl_sw/custbill/log"
+    },
+    "SystemTest": {
+      "name": "System Test Environment",
+      "host": "pas.sky.local",
+      "port": 22,
+      "user": "ranganathans@pas.rms@colkfxapp1",
+      "password": "happydyvibe@1066",
+      "script_paths": {
+        "Proforma": "/appl_sw/custbill/BIN/Testing/UI/Proforma.sh",
+        "Definitive": "/appl_sw/custbill/BIN/Testing/UI/Definitive.sh"
+      },
+      "output_path": "/LOG/CIF/STAMPE",
+      "log_path": "/appl_sw/custbill/log"
+    },
+    "UAT": {
+      "name": "UAT Environment",
+      "host": "pas.sky.local",
+      "port": 22,
+      "user": "ranganathans@pas.rms@e2ebbkfxmapp1",
+      "password": "happydyvibe@1066",
+      "script_paths": {
+        "Proforma": "/appl_sw/custbill/scripts/Proforma.sh",
+        "Definitive": "/appl_sw/custbill/scripts/Definitive.sh"
+      },
+      "output_path": "/LOG/CIF/STAMPE",
+      "log_path": "/appl_sw/custbill/log"
+    }
+  }
+}

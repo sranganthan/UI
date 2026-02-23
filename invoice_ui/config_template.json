@@ -1,0 +1,60 @@
+{
+  "environments": {
+    "IT": {
+      "name": "IT Environment",
+      "host": "10.26.224.31",
+      "port": 22,
+      "username": "your-username",
+      "password": "your-password",
+      "key_file": "",
+      "script_paths": {
+        "Proforma": "/appl_sw/custbill/scripts/Proforma.sh",
+        "Definitive": "/appl_sw/custbill/scripts/Definitive.sh"
+      },
+      "output_path": "/LOG/CIF/STAMPE",
+      "log_path": "/appl_sw/custbill/log"
+    },
+    "ST": {
+      "name": "ST Environment",
+      "host": "st-server.example.com",
+      "port": 22,
+      "username": "your-username",
+      "password": "your-password",
+      "key_file": "",
+      "script_paths": {
+        "Proforma": "/appl_sw/custbill/scripts/Proforma.sh",
+        "Definitive": "/appl_sw/custbill/scripts/Definitive.sh"
+      },
+      "output_path": "/LOG/CIF/STAMPE",
+      "log_path": "/appl_sw/custbill/log"
+    },
+    "SystemTest": {
+      "name": "System Test Environment",
+      "host": "systest-server.example.com",
+      "port": 22,
+      "username": "your-username",
+      "password": "your-password",
+      "key_file": "",
+      "script_paths": {
+        "Proforma": "/appl_sw/custbill/scripts/Proforma.sh",
+        "Definitive": "/appl_sw/custbill/scripts/Definitive.sh"
+      },
+      "output_path": "/LOG/CIF/STAMPE",
+      "log_path": "/appl_sw/custbill/log"
+    },
+    "UAT": {
+      "name": "UAT Environment",
+      "host": "uat-server.example.com",
+      "port": 22,
+      "username": "your-username",
+      "password": "your-password",
+      "key_file": "",
+      "script_paths": {
+        "Proforma": "/appl_sw/custbill/scripts/Proforma.sh",
+        "Definitive": "/appl_sw/custbill/scripts/Definitive.sh"
+      },
+      "output_path": "/LOG/CIF/STAMPE",
+      "log_path": "/appl_sw/custbill/log"
+    }
+  }
+}

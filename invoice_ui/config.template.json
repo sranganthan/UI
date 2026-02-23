@@ -1,0 +1,67 @@
+{
+    "email": {
+        "smtp_server": "smtp.gmail.com",
+        "smtp_port": 587,
+        "sender_email": "your-email@example.com",
+        "sender_password": "your-app-password",
+        "use_tls": true
+    },
+    "environments": {
+        "IT": {
+            "name": "IT Environment",
+            "host": "192.168.1.10",
+            "port": 22,
+            "username": "your-username",
+            "password": "your-password",
+            "key_file": "",
+            "script_paths": {
+                "Proforma": "/appl_sw/custbill/scripts/Proforma.sh",
+                "Definitive": "/appl_sw/custbill/scripts/Definitive.sh"
+            },
+            "output_path": "/LOG/CIF/STAMPE",
+            "log_path": "/appl_sw/custbill/log"
+        },
+        "ST": {
+            "name": "ST Environment",
+            "host": "192.168.1.20",
+            "port": 22,
+            "username": "your-username",
+            "password": "your-password",
+            "key_file": "",
+            "script_paths": {
+                "Proforma": "/appl_sw/custbill/scripts/Proforma.sh",
+                "Definitive": "/appl_sw/custbill/scripts/Definitive.sh"
+            },
+            "output_path": "/LOG/CIF/STAMPE",
+            "log_path": "/appl_sw/custbill/log"
+        },
+        "SystemTest": {
+            "name": "System Test Environment",
+            "host": "192.168.1.30",
+            "port": 22,
+            "username": "your-username",
+            "password": "your-password",
+            "key_file": "",
+            "script_paths": {
+                "Proforma": "/appl_sw/custbill/scripts/Proforma.sh",
+                "Definitive": "/appl_sw/custbill/scripts/Definitive.sh"
+            },
+            "output_path": "/LOG/CIF/STAMPE",
+            "log_path": "/appl_sw/custbill/log"
+        },
+        "UAT": {
+            "name": "UAT Environment",
+            "host": "192.168.1.40",
+            "port": 22,
+            "username": "your-username",
+            "password": "your-password",
+            "key_file": "",
+            "script_paths": {
+                "Proforma": "/appl_sw/custbill/scripts/Proforma.sh",
+                "Definitive": "/appl_sw/custbill/scripts/Definitive.sh"
+            },
+            "output_path": "/LOG/CIF/STAMPE",
+            "log_path": "/appl_sw/custbill/log"
+        }
+    }
+}
